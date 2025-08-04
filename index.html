@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="flex flex-col items-center mt-10 text-white font-semibold">
+    <p class="text-3xl font-bold">
+      Score: <span class="score text-yellow-400">0</span>
+    </p>
+
+    <div class="game-container mt-3">
+      <div class="snake-head"></div>
+
+      <div class="food flex justify-center items-center rounded-full text-red-600 text-[18px]">
+        <i class="fa-solid fa-apple-alt fa-beat"></i>
+      </div>
+
+      <div
+        class="foodHighscr flex justify-center items-center h-[20px] w-[20px] rounded-full text-[20px] fa-pulse absolute hidden">
+        🪙
+      </div>
+    </div>
+
+    <div class="mt-5 flex pb-2 flex-col items-center select-none">
+      <div class="dpad-btn" id="up">▲</div>
+      <div class="flex gap-1 mt-1">
+        <div class="dpad-btn" id="left">◀</div>
+        <div class="dpad-btn rounded-full " onClick="pauseGame()">
+          <i class="fa fa-pause" id="pause"></i>
+        </div>
+        <div class="dpad-btn" id="right">▶</div>
+      </div>
+      <div class="dpad-btn mt-1" id="down">▼</div>
+    </div>
+  </div>
+
+  <script src="script.js">
+   
+  </script>
+</body>
+
+</html>
