@@ -1,35 +1,46 @@
-# 🐍 Snake Game
+# 🐍 Classic Snake Game
 
-A classic Snake Game built using **HTML**, **CSS**, and **JavaScript**. Control the snake, eat food, and try not to run into walls or yourself!
+A fun and responsive Snake Game built using HTML, CSS, and JavaScript — now fully **mobile-friendly** with on-screen D-Pad controls!
 
-## 🎮 Demo
-
-[Play the Game](https://dhadhisttiwari.github.io/snake-game/)  
-*Make sure GitHub Pages is enabled in your repo settings for this link to work.*
+🚀 **[Play Now](https://dhadhisttiwari.github.io/snake-game/)**
 
 ---
 
-## 📂 Features
+## 🎮 Game Description
 
-- ✅ Classic snake movement
-- ✅ Score tracking
-- ✅ Food spawning
-- ✅ Game-over detection
-- ✅ Responsive design
+Control your snake to eat the food and grow longer, but don’t run into the walls or your own tail! This modern version of the classic Snake Game works smoothly on both **desktop** and **mobile** devices.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-- HTML
-- CSS (Tailwind css)
-- JavaScript (Vanilla)
+- 🧠 Smart keyboard controls (Arrow keys for desktop)
+- 📱 On-screen **D-Pad controls** for mobile
+- 📏 Responsive layout — play on any device!
+- 🎯 Real-time score tracking
+- 💀 Game over detection and instant restart
+- 🎨 Clean, retro-inspired design
 
 ---
 
-## 🚀 How to Run Locally
+## 🕹️ How to Play
 
-1. Clone the repository:
+### On Desktop:
+- Use your **Arrow Keys**:
+  - ⬆️ Up
+  - ⬇️ Down
+  - ⬅️ Left
+  - ➡️ Right
 
-   ```bash
-   git clone https://github.com/DhadhistTiwari/snake-game.git
+### On Mobile:
+- Tap the **on-screen D-Pad** to control the snake.
+- Same rules apply: eat the red dot to grow and avoid collisions.
+
+---
+
+## 📸 Preview Game
+
+> *(previewImg.png)*
+
+```markdown
+![Snake Game Screenshot](./screenshot.png)
