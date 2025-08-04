@@ -42,4 +42,4 @@ Control your snake to eat the food and grow longer, but don’t run into the wal
 
 >
 ```markdown
-![Snake Game Screenshot](./previewImg.png)
+![Snake Game Screenshot](previewImg.png)
