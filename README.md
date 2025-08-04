@@ -40,7 +40,6 @@ Control your snake to eat the food and grow longer, but don’t run into the wal
 
 ## 📸 Preview Game
 
-> *(previewImg.png)*
-
+>
 ```markdown
-![Snake Game Screenshot](./screenshot.png)
+![Snake Game Screenshot](./previewImg.png)
